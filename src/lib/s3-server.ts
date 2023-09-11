@@ -10,7 +10,7 @@ export async function downloadFromS3(file_key: string) {
       params: {
         Bucket: process.env.NEXT_PUBLIC_S3_BUCKET_NAME,
       },
-      region: "ap-southeast-1",
+      region: "us-east-1",
     });
     const params = {
       Bucket: process.env.NEXT_PUBLIC_S3_BUCKET_NAME!,

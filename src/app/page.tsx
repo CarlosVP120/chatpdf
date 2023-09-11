@@ -64,3 +64,6 @@ export default async function Home() {
     </div>
   );
 }
+
+// TO SEE DB
+// npx drizzle-kit studio
